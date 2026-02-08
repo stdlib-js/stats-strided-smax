@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import smax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smax@esm/index.mjs';
+import smax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smax@v0.1.1-esm/index.mjs';
 ```
 
 #### smax( N, x, strideX )
@@ -150,7 +150,7 @@ var v = smax.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import smax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smax@esm/index.mjs';
+import smax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smax@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
